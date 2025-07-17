@@ -1,0 +1,34 @@
+{
+  "name": "rupertj/pdf-images",
+  "description": "Library to help convert PDF data to images.",
+  "keywords": ["PDF", "images"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rupert Jabelman",
+      "email": "rupert@jabelman.org"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/rupertj/pdf-images/issues"
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-gd": "*"
+  },
+  "require-dev": {
+    "smalot/pdfparser": "^2.12",
+    "phpstan/phpstan": "^2.1.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "rupertj\\pdf_images\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests/"
+    }
+  }
+}
